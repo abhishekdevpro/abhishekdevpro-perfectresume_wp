@@ -1,0 +1,442 @@
+0000.001 (0) Opened log file at time: Tue, 17 Oct 2017 10:57:53 +0000 on https://www.perfectresume.ca
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.11 WP: 4.8.2 PHP: 5.6.30 (cgi-fcgi, Linux boscustweb6205.eigbox.net 3.14.77 #1 SMP Thu Oct 20 18:26:58 EDT 2016 x86_64) MySQL: 5.6.32 WPLANG: en_US Server: Apache/2 safe_mode: 0 max_execution_time: 900 memory_limit: 268435456 (used: 75.5M | 77M) multisite: N openssl: OpenSSL 1.0.2e 3 Dec 2015 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 11946033.3 MB
+0000.025 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.030 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.033 (0) Set semaphore last lock (fd) time to 2017-10-17 10:57:53
+0000.034 (0) Semaphore lock (fd) complete
+0000.038 (0) Backup run: resumption=0, nonce=56f7b25bac26, begun at=1508237873 (0s ago), job type=backup
+0000.040 (0) Scheduling a resumption (1) after 300 seconds (1508238173) in case this run gets aborted
+0000.063 (0) Checking if we have a zip executable available
+0000.064 (0) Testing: /usr/bin/zip
+0000.086 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.090 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.091 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.094 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.096 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.109 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.111 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.130 (0) Working binary zip found: /usr/bin/zip
+0000.132 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.133 (0) Creation of backups of directories: beginning
+0000.139 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0022.094 (0) Total entities for the zip file: 1080 directories, 7668 files (0 skipped as non-modified), 94.5 MB
+0022.099 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0022.343 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: size is now: 0.20 MB
+0022.514 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 100 files added (on-disk size: 236.1 KB)
+0022.644 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 200 files added (on-disk size: 236.1 KB)
+0022.793 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 300 files added (on-disk size: 236.1 KB)
+0022.926 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 400 files added (on-disk size: 236.1 KB)
+0023.068 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 500 files added (on-disk size: 236.1 KB)
+0023.071 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.6 MB, 7668 files batched, 501 (502) added so far); re-opening (prior size: 236.1 KB)
+0025.802 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: size is now: 2.40 MB
+0025.925 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 600 files added (on-disk size: 2459.3 KB)
+0026.040 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 700 files added (on-disk size: 2459.3 KB)
+0026.152 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 800 files added (on-disk size: 2459.3 KB)
+0026.280 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 900 files added (on-disk size: 2459.3 KB)
+0026.385 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 1000 files added (on-disk size: 2459.3 KB)
+0026.389 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15 MB, 7668 files batched, 501 (1003) added so far); re-opening (prior size: 2459.3 KB)
+0030.125 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: size is now: 6.50 MB
+0030.433 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 1100 files added (on-disk size: 6651.3 KB)
+0030.543 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 1200 files added (on-disk size: 6651.3 KB)
+0030.673 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 1300 files added (on-disk size: 6651.3 KB)
+0030.777 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 1400 files added (on-disk size: 6651.3 KB)
+0030.878 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 1500 files added (on-disk size: 6651.3 KB)
+0030.903 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.7 MB, 7668 files batched, 501 (1504) added so far); re-opening (prior size: 6651.3 KB)
+0033.596 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 1600 files added (on-disk size: 7581.4 KB)
+0033.734 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 1700 files added (on-disk size: 7581.4 KB)
+0033.898 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 1800 files added (on-disk size: 7581.4 KB)
+0034.061 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 1900 files added (on-disk size: 7581.4 KB)
+0034.172 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 2000 files added (on-disk size: 7581.4 KB)
+0034.178 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.8 MB, 7668 files batched, 501 (2005) added so far); re-opening (prior size: 7581.4 KB)
+0036.966 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 2100 files added (on-disk size: 8602.8 KB)
+0037.066 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 2200 files added (on-disk size: 8602.8 KB)
+0037.167 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 2300 files added (on-disk size: 8602.8 KB)
+0037.255 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 2400 files added (on-disk size: 8602.8 KB)
+0037.341 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 2500 files added (on-disk size: 8602.8 KB)
+0037.348 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.9 MB, 7668 files batched, 501 (2506) added so far); re-opening (prior size: 8602.8 KB)
+0041.266 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: size is now: 12.10 MB
+0041.369 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 2600 files added (on-disk size: 12394.1 KB)
+0041.513 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 2700 files added (on-disk size: 12394.1 KB)
+0041.621 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 2800 files added (on-disk size: 12394.1 KB)
+0041.729 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 2900 files added (on-disk size: 12394.1 KB)
+0041.826 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 3000 files added (on-disk size: 12394.1 KB)
+0041.833 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.9 MB, 7668 files batched, 501 (3007) added so far); re-opening (prior size: 12394.1 KB)
+0045.924 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 3100 files added (on-disk size: 14844.1 KB)
+0046.034 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 3200 files added (on-disk size: 14844.1 KB)
+0046.165 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 3300 files added (on-disk size: 14844.1 KB)
+0046.300 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 3400 files added (on-disk size: 14844.1 KB)
+0046.434 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 3500 files added (on-disk size: 14844.1 KB)
+0046.443 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.5 MB, 7668 files batched, 501 (3508) added so far); re-opening (prior size: 14844.1 KB)
+0049.835 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 3600 files added (on-disk size: 17159.1 KB)
+0049.970 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 3700 files added (on-disk size: 17159.1 KB)
+0050.133 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 3800 files added (on-disk size: 17159.1 KB)
+0050.252 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 3900 files added (on-disk size: 17159.1 KB)
+0050.376 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 4000 files added (on-disk size: 17159.1 KB)
+0050.384 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.4 MB, 7668 files batched, 501 (4009) added so far); re-opening (prior size: 17159.1 KB)
+0053.300 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 4100 files added (on-disk size: 18661.7 KB)
+0053.409 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 4200 files added (on-disk size: 18661.7 KB)
+0053.532 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 4300 files added (on-disk size: 18661.7 KB)
+0053.668 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 4400 files added (on-disk size: 18661.7 KB)
+0053.784 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 4500 files added (on-disk size: 18661.7 KB)
+0053.795 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.9 MB, 7668 files batched, 501 (4510) added so far); re-opening (prior size: 18661.7 KB)
+0056.733 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 4600 files added (on-disk size: 21019.7 KB)
+0056.822 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 4700 files added (on-disk size: 21019.7 KB)
+0056.916 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 4800 files added (on-disk size: 21019.7 KB)
+0057.011 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 4900 files added (on-disk size: 21019.7 KB)
+0057.101 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 5000 files added (on-disk size: 21019.7 KB)
+0057.113 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.2 MB, 7668 files batched, 501 (5011) added so far); re-opening (prior size: 21019.7 KB)
+0061.613 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 5100 files added (on-disk size: 23777.4 KB)
+0061.701 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 5200 files added (on-disk size: 23777.4 KB)
+0061.793 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 5300 files added (on-disk size: 23777.4 KB)
+0061.886 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 5400 files added (on-disk size: 23777.4 KB)
+0062.001 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 5500 files added (on-disk size: 23777.4 KB)
+0062.014 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.4 MB, 7668 files batched, 501 (5512) added so far); re-opening (prior size: 23777.4 KB)
+0067.657 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 5600 files added (on-disk size: 26254.7 KB)
+0067.770 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 5700 files added (on-disk size: 26254.7 KB)
+0067.862 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 5800 files added (on-disk size: 26254.7 KB)
+0067.962 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 5900 files added (on-disk size: 26254.7 KB)
+0068.040 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 6000 files added (on-disk size: 26254.7 KB)
+0068.141 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.1 MB, 7668 files batched, 501 (6013) added so far); re-opening (prior size: 26254.7 KB)
+0074.054 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 6100 files added (on-disk size: 27658.8 KB)
+0074.173 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 6200 files added (on-disk size: 27658.8 KB)
+0074.274 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 6300 files added (on-disk size: 27658.8 KB)
+0074.379 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 6400 files added (on-disk size: 27658.8 KB)
+0074.476 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 6500 files added (on-disk size: 27658.8 KB)
+0074.491 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.5 MB, 7668 files batched, 501 (6514) added so far); re-opening (prior size: 27658.8 KB)
+0079.799 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 6600 files added (on-disk size: 31234.2 KB)
+0079.916 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 6700 files added (on-disk size: 31234.2 KB)
+0080.027 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 6800 files added (on-disk size: 31234.2 KB)
+0080.133 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 6900 files added (on-disk size: 31234.2 KB)
+0080.268 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 7000 files added (on-disk size: 31234.2 KB)
+0080.287 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.5 MB, 7668 files batched, 501 (7015) added so far); re-opening (prior size: 31234.2 KB)
+0084.600 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 7100 files added (on-disk size: 33534.8 KB)
+0084.701 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 7200 files added (on-disk size: 33534.8 KB)
+0084.808 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 7300 files added (on-disk size: 33534.8 KB)
+0084.926 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 7400 files added (on-disk size: 33534.8 KB)
+0085.033 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 7500 files added (on-disk size: 33534.8 KB)
+0085.047 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4 MB, 7668 files batched, 501 (7516) added so far); re-opening (prior size: 33534.8 KB)
+0088.771 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip.tmp: 7600 files added (on-disk size: 35232.1 KB)
+0090.846 (0) Created plugins zip (0) - 35657.4 KB in 90.7 s (393.1 KB/s) (sha1: aee07c045ebf213a4900522b89a96335c08199e4, sha256: d8bc25f208e06c5b7e0ed8bda4c77fea9af3e6a3e339880952758e1740d48fd7)
+0090.853 (0) Beginning creation of dump of themes (split every: 400 MB)
+0091.444 (0) Total entities for the zip file: 62 directories, 528 files (0 skipped as non-modified), 21.6 MB
+0091.521 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0091.588 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0091.664 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0091.750 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0091.833 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0091.835 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (21.5 MB, 528 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0095.236 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-themes.zip.tmp: size is now: 14.90 MB
+0096.520 (0) Created themes zip (0) - 15323.2 KB in 5.7 s (2706.6 KB/s) (sha1: b367350e28312d9fcb1ab3008f3bc31c52f957e2, sha256: b07f6ea05c236311eed441f67dba4ed53b212f5385623c9512d7549cd4906f86)
+0096.528 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0096.529 (0) Looking for candidates to back up in: /hermes/bosnaweb25a/b496/ipg.perfectresumeca/perfectresume.ca/wp-content/uploads
+0096.532 (0) finding files: 2017: adding to list (1)
+0096.533 (0) finding files: 2016: adding to list (2)
+0096.534 (0) finding files: GeoIPv6.dat: adding to list (3)
+0096.535 (0) finding files: js_composer: adding to list (4)
+0096.535 (0) finding files: GeoIP.dat: adding to list (5)
+0096.536 (0) finding files: 2015: adding to list (6)
+0096.537 (0) finding files: smile_fonts: adding to list (7)
+0096.538 (0) finding files: wc-logs: adding to list (8)
+0096.539 (0) finding files: revslider: adding to list (9)
+0096.540 (0) finding files: woocommerce_uploads: adding to list (10)
+0096.541 (0) finding files: videogallery: adding to list (11)
+0096.542 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0097.781 (0) Total entities for the zip file: 120 directories, 482 files (0 skipped as non-modified), 31.6 MB
+0097.863 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0097.937 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0097.940 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.4 MB, 482 files batched, 202 (202) added so far); re-opening (prior size: 0 KB)
+0101.514 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-uploads.zip.tmp: size is now: 24.10 MB
+0101.518 (0) A useful amount of data was added after this amount of zip processing: 5.7 s (normalised: 5.6 s, rate: 4605.1 KB/s)
+0101.521 (0) Performance is good - will increase the amount of data we attempt to batch (time=5.6570971012115, normalised_time=5.5590719737352, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=28293643)
+0101.671 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-uploads.zip.tmp: 300 files added (on-disk size: 24646.1 KB)
+0101.801 (0) Zip: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-uploads.zip.tmp: 400 files added (on-disk size: 24646.1 KB)
+0105.246 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-uploads.zip.tmp: size is now: 29.00 MB
+0105.843 (0) Created uploads zip (0) - 29703.2 KB in 9.3 s (3196.5 KB/s) (sha1: 346232a1191a45bf07325664f8dbb2cfd8fa4b82, sha256: 354a10e69df34f4b0442d463e06670289d040ef0cb2da57ecf641004acc15263)
+0105.858 (0) Beginning backup of other directories found in the content directory (index: 0)
+0105.861 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0105.862 (0) Looking for candidates to back up in: /hermes/bosnaweb25a/b496/ipg.perfectresumeca/perfectresume.ca/wp-content
+0105.863 (0) finding files: index.php: adding to list (1)
+0105.865 (0) finding files: themes: skipping: this is the themes directory
+0105.867 (0) finding files: plugins: skipping: this is the plugins directory
+0105.868 (0) finding files: uploads: skipping: this is the uploads directory
+0105.869 (0) finding files: upgrade: skipping: excluded by options
+0105.870 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0105.871 (0) finding files: cache: skipping: excluded by options
+0105.872 (0) finding files: languages: adding to list (2)
+0105.873 (0) finding files: updraft: skipping: this is the updraft directory
+0105.874 (0) finding files: w3tc-config: adding to list (3)
+0105.951 (0) Total entities for the zip file: 4 directories, 41 files (0 skipped as non-modified), 7.6 MB
+0107.180 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-others.zip.tmp: size is now: 1.90 MB
+0107.229 (0) Created others zip (0) - 1968.9 KB in 1.3 s (1460.9 KB/s) (sha1: 58538e5e4bb34fbda054296e6a2e0fec9e5f7baf, sha256: 40c1a06983db427a13be60c55bbdba897a7bf80df2d5210cae02614bc1082ba0)
+0107.243 (0) Saving backup status to database (elements: 8)
+0107.249 (0) Beginning creation of database dump (WordPress DB)
+0107.255 (0) Testing: /usr/bin/mysqldump
+0107.421 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `hbd5_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nC (truncated - 1207 bytes total)
+0107.459 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0107.634 (0) Table hbd5_options: Total expected rows (approximate): 692
+0107.734 (0) Table hbd5_options: Total rows added: 688 in 0.10 seconds
+0107.742 (0) Table hbd5_options: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_options.table.gz - 214.1 KB)
+0107.755 (0) Table hbd5_users: Total expected rows (approximate): 13
+0107.789 (0) Table hbd5_users: Total rows added: 13 in 0.03 seconds
+0107.791 (0) Table hbd5_users: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_users.table.gz - 1.4 KB)
+0107.798 (0) Table hbd5_usermeta: Total expected rows (approximate): 366
+0107.827 (0) Table hbd5_usermeta: Total rows added: 366 in 0.03 seconds
+0107.828 (0) Table hbd5_usermeta: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_usermeta.table.gz - 7 KB)
+0108.216 (0) Table hbd5_commentmeta: Total expected rows (approximate): 2
+0108.253 (0) Table hbd5_commentmeta: Total rows added: 2 in 0.04 seconds
+0108.255 (0) Table hbd5_commentmeta: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_commentmeta.table.gz - 0.4 KB)
+0108.664 (0) Table hbd5_comments: Total expected rows (approximate): 33
+0108.715 (0) Table hbd5_comments: Total rows added: 33 in 0.05 seconds
+0108.716 (0) Table hbd5_comments: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_comments.table.gz - 1.7 KB)
+0108.723 (0) Table hbd5_links: Total expected rows (approximate): 0
+0108.742 (0) Table hbd5_links: Total rows added: 0 in 0.02 seconds
+0108.744 (0) Table hbd5_links: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_links.table.gz - 0.4 KB)
+0108.750 (0) Table hbd5_postmeta: Total expected rows (approximate): 2648
+0108.837 (0) Table hbd5_postmeta: Total rows added: 2648 in 0.09 seconds
+0108.839 (0) Table hbd5_postmeta: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_postmeta.table.gz - 26.7 KB)
+0108.846 (0) Table hbd5_posts: Total expected rows (approximate): 357
+0108.929 (0) Table hbd5_posts: Total rows added: 357 in 0.08 seconds
+0108.933 (0) Table hbd5_posts: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_posts.table.gz - 74.1 KB)
+0108.941 (0) Table hbd5_term_relationships: Total expected rows (approximate): 113
+0108.960 (0) Table hbd5_term_relationships: Total rows added: 113 in 0.02 seconds
+0108.962 (0) Table hbd5_term_relationships: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_term_relationships.table.gz - 0.7 KB)
+0108.969 (0) Table hbd5_term_taxonomy: Total expected rows (approximate): 46
+0109.013 (0) Table hbd5_term_taxonomy: Total rows added: 46 in 0.04 seconds
+0109.014 (0) Table hbd5_term_taxonomy: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_term_taxonomy.table.gz - 0.9 KB)
+0109.021 (0) Table hbd5_termmeta: Total expected rows (approximate): 3
+0109.086 (0) Table hbd5_termmeta: Total rows added: 3 in 0.06 seconds
+0109.088 (0) Table hbd5_termmeta: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_termmeta.table.gz - 0.4 KB)
+0109.095 (0) Table hbd5_terms: Total expected rows (approximate): 46
+0109.123 (0) Table hbd5_terms: Total rows added: 46 in 0.03 seconds
+0109.125 (0) Table hbd5_terms: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_terms.table.gz - 0.9 KB)
+0109.147 (0) Table hbd5_woocommerce_order_itemmeta: Total expected rows (approximate): 333
+0109.193 (0) Table hbd5_woocommerce_order_itemmeta: Total rows added: 333 in 0.05 seconds
+0109.208 (0) Table hbd5_woocommerce_order_itemmeta: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_woocommerce_order_itemmeta.table.gz - 2.4 KB)
+0109.215 (0) Table hbd5_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0109.269 (0) Table hbd5_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.05 seconds
+0109.271 (0) Table hbd5_woocommerce_payment_tokenmeta: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0109.283 (0) Table hbd5_eig_sso: Total expected rows (approximate): 1
+0109.306 (0) Table hbd5_eig_sso: Total rows added: 1 in 0.02 seconds
+0109.308 (0) Table hbd5_eig_sso: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_eig_sso.table.gz - 0.3 KB)
+0109.329 (0) Table hbd5_hdflvvideoshare: Total expected rows (approximate): 17
+0109.356 (0) Table hbd5_hdflvvideoshare: Total rows added: 17 in 0.03 seconds
+0109.358 (0) Table hbd5_hdflvvideoshare: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare.table.gz - 3.1 KB)
+0109.368 (0) Table hbd5_hdflvvideoshare_channel: Total expected rows (approximate): 11
+0109.402 (0) Table hbd5_hdflvvideoshare_channel: Total rows added: 11 in 0.03 seconds
+0109.404 (0) Table hbd5_hdflvvideoshare_channel: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare_channel.table.gz - 0.9 KB)
+0109.425 (0) Table hbd5_hdflvvideoshare_channel_notification: Total expected rows (approximate): 0
+0109.475 (0) Table hbd5_hdflvvideoshare_channel_notification: Total rows added: 0 in 0.05 seconds
+0109.480 (0) Table hbd5_hdflvvideoshare_channel_notification: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare_channel_notification.table.gz - 0.3 KB)
+0109.494 (0) Table hbd5_hdflvvideoshare_channel_subscribe: Total expected rows (approximate): 0
+0109.518 (0) Table hbd5_hdflvvideoshare_channel_subscribe: Total rows added: 0 in 0.02 seconds
+0109.520 (0) Table hbd5_hdflvvideoshare_channel_subscribe: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare_channel_subscribe.table.gz - 0.3 KB)
+0109.554 (0) Table hbd5_hdflvvideoshare_med2play: Total expected rows (approximate): 18
+0109.589 (0) Table hbd5_hdflvvideoshare_med2play: Total rows added: 18 in 0.03 seconds
+0109.590 (0) Table hbd5_hdflvvideoshare_med2play: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare_med2play.table.gz - 0.5 KB)
+0109.614 (0) Table hbd5_hdflvvideoshare_playlist: Total expected rows (approximate): 5
+0109.639 (0) Table hbd5_hdflvvideoshare_playlist: Total rows added: 5 in 0.02 seconds
+0109.641 (0) Table hbd5_hdflvvideoshare_playlist: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare_playlist.table.gz - 0.5 KB)
+0109.662 (0) Table hbd5_hdflvvideoshare_settings: Total expected rows (approximate): 1
+0109.690 (0) Table hbd5_hdflvvideoshare_settings: Total rows added: 1 in 0.03 seconds
+0109.693 (0) Table hbd5_hdflvvideoshare_settings: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare_settings.table.gz - 1.5 KB)
+0109.716 (0) Table hbd5_hdflvvideoshare_tags: Total expected rows (approximate): 0
+0109.735 (0) Table hbd5_hdflvvideoshare_tags: Total rows added: 0 in 0.02 seconds
+0109.737 (0) Table hbd5_hdflvvideoshare_tags: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare_tags.table.gz - 0.3 KB)
+0109.757 (0) Table hbd5_hdflvvideoshare_user_playlist: Total expected rows (approximate): 0
+0109.781 (0) Table hbd5_hdflvvideoshare_user_playlist: Total rows added: 0 in 0.02 seconds
+0109.782 (0) Table hbd5_hdflvvideoshare_user_playlist: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare_user_playlist.table.gz - 0.3 KB)
+0109.801 (0) Table hbd5_hdflvvideoshare_user_playlist_details: Total expected rows (approximate): 0
+0109.818 (0) Table hbd5_hdflvvideoshare_user_playlist_details: Total rows added: 0 in 0.02 seconds
+0109.820 (0) Table hbd5_hdflvvideoshare_user_playlist_details: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare_user_playlist_details.table.gz - 0.3 KB)
+0109.831 (0) Table hbd5_hdflvvideoshare_vgads: Total expected rows (approximate): 0
+0109.848 (0) Table hbd5_hdflvvideoshare_vgads: Total rows added: 0 in 0.02 seconds
+0109.850 (0) Table hbd5_hdflvvideoshare_vgads: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare_vgads.table.gz - 0.5 KB)
+0109.871 (0) Table hbd5_hdflvvideoshare_vgoogleadsense: Total expected rows (approximate): 0
+0109.896 (0) Table hbd5_hdflvvideoshare_vgoogleadsense: Total rows added: 0 in 0.02 seconds
+0109.898 (0) Table hbd5_hdflvvideoshare_vgoogleadsense: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare_vgoogleadsense.table.gz - 0.3 KB)
+0109.907 (0) Table hbd5_hdflvvideoshare_watch_history: Total expected rows (approximate): 0
+0109.937 (0) Table hbd5_hdflvvideoshare_watch_history: Total rows added: 0 in 0.03 seconds
+0109.939 (0) Table hbd5_hdflvvideoshare_watch_history: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare_watch_history.table.gz - 0.3 KB)
+0109.950 (0) Table hbd5_hdflvvideoshare_watch_history_users: Total expected rows (approximate): 11
+0110.000 (0) Table hbd5_hdflvvideoshare_watch_history_users: Total rows added: 11 in 0.05 seconds
+0110.002 (0) Table hbd5_hdflvvideoshare_watch_history_users: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare_watch_history_users.table.gz - 0.4 KB)
+0110.020 (0) Table hbd5_hdflvvideoshare_watch_later: Total expected rows (approximate): 0
+0110.054 (0) Table hbd5_hdflvvideoshare_watch_later: Total rows added: 0 in 0.03 seconds
+0110.055 (0) Table hbd5_hdflvvideoshare_watch_later: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare_watch_later.table.gz - 0.3 KB)
+0110.065 (0) Table hbd5_revslider_css: Total expected rows (approximate): 109
+0110.102 (0) Table hbd5_revslider_css: Total rows added: 109 in 0.04 seconds
+0110.104 (0) Table hbd5_revslider_css: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_revslider_css.table.gz - 4.8 KB)
+0110.130 (0) Table hbd5_revslider_layer_animations: Total expected rows (approximate): 0
+0110.160 (0) Table hbd5_revslider_layer_animations: Total rows added: 0 in 0.03 seconds
+0110.162 (0) Table hbd5_revslider_layer_animations: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_revslider_layer_animations.table.gz - 0.3 KB)
+0110.176 (0) Table hbd5_revslider_navigations: Total expected rows (approximate): 0
+0110.207 (0) Table hbd5_revslider_navigations: Total rows added: 0 in 0.03 seconds
+0110.210 (0) Table hbd5_revslider_navigations: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_revslider_navigations.table.gz - 0.3 KB)
+0110.228 (0) Table hbd5_revslider_sliders: Total expected rows (approximate): 0
+0110.256 (0) Table hbd5_revslider_sliders: Total rows added: 0 in 0.03 seconds
+0110.257 (0) Table hbd5_revslider_sliders: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_revslider_sliders.table.gz - 0.3 KB)
+0110.270 (0) Table hbd5_revslider_slides: Total expected rows (approximate): 0
+0110.306 (0) Table hbd5_revslider_slides: Total rows added: 0 in 0.03 seconds
+0110.308 (0) Table hbd5_revslider_slides: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_revslider_slides.table.gz - 0.3 KB)
+0110.325 (0) Table hbd5_revslider_static_slides: Total expected rows (approximate): 0
+0110.349 (0) Table hbd5_revslider_static_slides: Total rows added: 0 in 0.02 seconds
+0110.351 (0) Table hbd5_revslider_static_slides: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_revslider_static_slides.table.gz - 0.3 KB)
+0110.370 (0) Table hbd5_schat_chat_logs: Total expected rows (approximate): 0
+0110.412 (0) Table hbd5_schat_chat_logs: Total rows added: 0 in 0.04 seconds
+0110.414 (0) Table hbd5_schat_chat_logs: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_schat_chat_logs.table.gz - 0.3 KB)
+0110.433 (0) Table hbd5_schat_conversations: Total expected rows (approximate): 0
+0110.474 (0) Table hbd5_schat_conversations: Total rows added: 0 in 0.04 seconds
+0110.476 (0) Table hbd5_schat_conversations: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_schat_conversations.table.gz - 0.3 KB)
+0110.498 (0) Table hbd5_schat_users: Total expected rows (approximate): 0
+0110.525 (0) Table hbd5_schat_users: Total rows added: 0 in 0.03 seconds
+0110.527 (0) Table hbd5_schat_users: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_schat_users.table.gz - 0.3 KB)
+0110.550 (0) Table hbd5_woocommerce_api_keys: Total expected rows (approximate): 0
+0110.589 (0) Table hbd5_woocommerce_api_keys: Total rows added: 0 in 0.04 seconds
+0110.591 (0) Table hbd5_woocommerce_api_keys: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_woocommerce_api_keys.table.gz - 0.4 KB)
+0110.604 (0) Table hbd5_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0110.649 (0) Table hbd5_woocommerce_attribute_taxonomies: Total rows added: 0 in 0.04 seconds
+0110.650 (0) Table hbd5_woocommerce_attribute_taxonomies: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0110.668 (0) Table hbd5_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0110.716 (0) Table hbd5_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.05 seconds
+0110.718 (0) Table hbd5_woocommerce_downloadable_product_permissions: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0110.728 (0) Table hbd5_woocommerce_log: Total expected rows (approximate): 0
+0110.780 (0) Table hbd5_woocommerce_log: Total rows added: 0 in 0.05 seconds
+0110.782 (0) Table hbd5_woocommerce_log: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_woocommerce_log.table.gz - 0.4 KB)
+0110.793 (0) Table hbd5_woocommerce_order_items: Total expected rows (approximate): 37
+0110.833 (0) Table hbd5_woocommerce_order_items: Total rows added: 37 in 0.04 seconds
+0110.835 (0) Table hbd5_woocommerce_order_items: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_woocommerce_order_items.table.gz - 0.7 KB)
+0110.847 (0) Table hbd5_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0110.882 (0) Table hbd5_woocommerce_payment_tokens: Total rows added: 0 in 0.03 seconds
+0110.884 (0) Table hbd5_woocommerce_payment_tokens: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0110.892 (0) Table hbd5_woocommerce_sessions: Total expected rows (approximate): 12
+0110.942 (0) Table hbd5_woocommerce_sessions: Total rows added: 12 in 0.05 seconds
+0110.944 (0) Table hbd5_woocommerce_sessions: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_woocommerce_sessions.table.gz - 2.1 KB)
+0110.958 (0) Table hbd5_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0110.982 (0) Table hbd5_woocommerce_shipping_zone_locations: Total rows added: 0 in 0.02 seconds
+0110.983 (0) Table hbd5_woocommerce_shipping_zone_locations: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0110.992 (0) Table hbd5_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0111.033 (0) Table hbd5_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.04 seconds
+0111.034 (0) Table hbd5_woocommerce_shipping_zone_methods: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0111.065 (0) Table hbd5_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0111.089 (0) Table hbd5_woocommerce_shipping_zones: Total rows added: 0 in 0.02 seconds
+0111.090 (0) Table hbd5_woocommerce_shipping_zones: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0111.104 (0) Table hbd5_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0111.146 (0) Table hbd5_woocommerce_tax_rate_locations: Total rows added: 0 in 0.04 seconds
+0111.148 (0) Table hbd5_woocommerce_tax_rate_locations: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0111.167 (0) Table hbd5_woocommerce_tax_rates: Total expected rows (approximate): 0
+0111.210 (0) Table hbd5_woocommerce_tax_rates: Total rows added: 0 in 0.04 seconds
+0111.212 (0) Table hbd5_woocommerce_tax_rates: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_woocommerce_tax_rates.table.gz - 0.4 KB)
+0111.219 (0) Table hbd5_yoast_seo_links: Total expected rows (approximate): 32
+0111.249 (0) Table hbd5_yoast_seo_links: Total rows added: 34 in 0.03 seconds
+0111.744 (0) Table hbd5_yoast_seo_links: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_yoast_seo_links.table.gz - 0.7 KB)
+0111.760 (0) Table hbd5_yoast_seo_meta: Total expected rows (approximate): 0
+0111.780 (0) Table hbd5_yoast_seo_meta: Total rows added: 13 in 0.02 seconds
+0111.782 (0) Table hbd5_yoast_seo_meta: finishing file (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_yoast_seo_meta.table.gz - 0.4 KB)
+0111.794 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_options.table.gz (1/53): adding to final database dump
+0111.844 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_users.table.gz (2/53): adding to final database dump
+0111.846 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_usermeta.table.gz (3/53): adding to final database dump
+0111.851 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_commentmeta.table.gz (4/53): adding to final database dump
+0111.853 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_comments.table.gz (5/53): adding to final database dump
+0111.856 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_links.table.gz (6/53): adding to final database dump
+0111.859 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_postmeta.table.gz (7/53): adding to final database dump
+0111.883 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_posts.table.gz (8/53): adding to final database dump
+0111.913 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_term_relationships.table.gz (9/53): adding to final database dump
+0111.915 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_term_taxonomy.table.gz (10/53): adding to final database dump
+0111.918 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_termmeta.table.gz (11/53): adding to final database dump
+0111.920 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_terms.table.gz (12/53): adding to final database dump
+0111.922 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_woocommerce_order_itemmeta.table.gz (13/53): adding to final database dump
+0111.927 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_woocommerce_payment_tokenmeta.table.gz (14/53): adding to final database dump
+0111.930 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_eig_sso.table.gz (15/53): adding to final database dump
+0111.932 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare.table.gz (16/53): adding to final database dump
+0111.935 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare_channel.table.gz (17/53): adding to final database dump
+0111.936 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare_channel_notification.table.gz (18/53): adding to final database dump
+0111.938 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare_channel_subscribe.table.gz (19/53): adding to final database dump
+0111.940 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare_med2play.table.gz (20/53): adding to final database dump
+0111.943 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare_playlist.table.gz (21/53): adding to final database dump
+0111.945 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare_settings.table.gz (22/53): adding to final database dump
+0111.948 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare_tags.table.gz (23/53): adding to final database dump
+0111.950 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare_user_playlist.table.gz (24/53): adding to final database dump
+0111.952 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare_user_playlist_details.table.gz (25/53): adding to final database dump
+0111.954 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare_vgads.table.gz (26/53): adding to final database dump
+0111.956 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare_vgoogleadsense.table.gz (27/53): adding to final database dump
+0111.959 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare_watch_history.table.gz (28/53): adding to final database dump
+0111.961 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare_watch_history_users.table.gz (29/53): adding to final database dump
+0111.963 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_hdflvvideoshare_watch_later.table.gz (30/53): adding to final database dump
+0111.968 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_revslider_css.table.gz (31/53): adding to final database dump
+0111.972 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_revslider_layer_animations.table.gz (32/53): adding to final database dump
+0111.974 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_revslider_navigations.table.gz (33/53): adding to final database dump
+0111.976 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_revslider_sliders.table.gz (34/53): adding to final database dump
+0111.979 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_revslider_slides.table.gz (35/53): adding to final database dump
+0111.981 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_revslider_static_slides.table.gz (36/53): adding to final database dump
+0111.983 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_schat_chat_logs.table.gz (37/53): adding to final database dump
+0111.985 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_schat_conversations.table.gz (38/53): adding to final database dump
+0111.987 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_schat_users.table.gz (39/53): adding to final database dump
+0111.989 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_woocommerce_api_keys.table.gz (40/53): adding to final database dump
+0111.991 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_woocommerce_attribute_taxonomies.table.gz (41/53): adding to final database dump
+0111.993 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_woocommerce_downloadable_product_permissions.table.gz (42/53): adding to final database dump
+0111.995 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_woocommerce_log.table.gz (43/53): adding to final database dump
+0111.997 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_woocommerce_order_items.table.gz (44/53): adding to final database dump
+0111.999 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_woocommerce_payment_tokens.table.gz (45/53): adding to final database dump
+0112.001 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_woocommerce_sessions.table.gz (46/53): adding to final database dump
+0112.004 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_woocommerce_shipping_zone_locations.table.gz (47/53): adding to final database dump
+0112.005 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_woocommerce_shipping_zone_methods.table.gz (48/53): adding to final database dump
+0112.008 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_woocommerce_shipping_zones.table.gz (49/53): adding to final database dump
+0112.010 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_woocommerce_tax_rate_locations.table.gz (50/53): adding to final database dump
+0112.012 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_woocommerce_tax_rates.table.gz (51/53): adding to final database dump
+0112.014 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_yoast_seo_links.table.gz (52/53): adding to final database dump
+0112.016 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db-table-hbd5_yoast_seo_meta.table.gz (53/53): adding to final database dump
+0112.028 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db.gz: finished writing out complete database file (288 KB)
+0112.069 (0) Total database tables backed up: 53 (backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db.gz, size: 351914, sha256)
+0112.077 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0112.078 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0112.079 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0112.080 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-others.zip: others: This file has not yet been successfully uploaded: will queue
+0112.081 (0) backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db.gz: db: This file has not yet been successfully uploaded: will queue
+0112.082 (0) Saving backup history. Total backup size: 81.1 MB
+0112.085 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0112.088 (0) Cloud backup selection (1/1): none (last)
+0112.089 (0) No remote despatch: user chose no remote backup service
+0112.091 (0) Recording as successfully uploaded: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-plugins.zip (765c419d45950003731a9c9931ed5fc6)
+0112.097 (0) Recording as successfully uploaded: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-themes.zip (65496d583a41ca4a6bceb173a03698fb)
+0112.101 (0) Recording as successfully uploaded: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-uploads.zip (57280013c36a31099c1096c5438fde59)
+0112.106 (0) Recording as successfully uploaded: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-others.zip (324b41e8fec7af209e39843ba88a416e)
+0112.111 (0) Recording as successfully uploaded: backup_2017-10-17-1057_Perfect_Resume_56f7b25bac26-db.gz (e0679ccfcc4637ac3d1bcb14f07746da)
+0112.118 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0112.119 (0) Number of backup sets in history: 3; groups (db): 1
+0112.120 (0) Examining (for databases) backup set with group_id=0, nonce=56f7b25bac26, datestamp=1508237873 (Oct 17 2017 10:57:53)
+0112.121 (0) This backup set is the backup set just made, so will not be deleted.
+0112.121 (0) Examining (for databases) backup set with group_id=0, nonce=28f4c0df116c, datestamp=1485664239 (Jan 29 2017 04:30:39)
+0112.121 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0112.123 (0) Examining (for databases) backup set with group_id=0, nonce=08ac9e2b0013, datestamp=1485573337 (Jan 28 2017 03:15:37)
+0112.123 (0) 1485573337: db: this set includes a database (backup_2017-01-28-0315_Perfect_Resume_08ac9e2b0013-db.gz); db count is now 2
+0112.123 (0) 1485573337: db: over retain limit (2); will delete this database
+0112.123 (0) Delete file: backup_2017-01-28-0315_Perfect_Resume_08ac9e2b0013-db.gz, service=none
+0112.125 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0112.126 (0) Number of backup sets in history: 3; groups (files): 1
+0112.127 (0) Examining (for files) backup set with nonce=56f7b25bac26, datestamp=1508237873 (Oct 17 2017 10:57:53)
+0112.127 (0) This backup set is the backup set just made, so will not be deleted.
+0112.128 (0) This backup set is the backup set just made, so will not be deleted.
+0112.128 (0) This backup set is the backup set just made, so will not be deleted.
+0112.128 (0) This backup set is the backup set just made, so will not be deleted.
+0112.128 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0112.129 (0) Examining (for files) backup set with nonce=28f4c0df116c, datestamp=1485664239 (Jan 29 2017 04:30:39)
+0112.129 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0112.130 (0) Examining (for files) backup set with nonce=08ac9e2b0013, datestamp=1485573337 (Jan 28 2017 03:15:37)
+0112.130 (0) plugins: over retain limit (2); will delete this file entity
+0112.130 (0) themes: over retain limit (2); will delete this file entity
+0112.130 (0) uploads: over retain limit (2); will delete this file entity
+0112.130 (0) others: over retain limit (2); will delete this file entity
+0112.130 (0) Delete file: backup_2017-01-28-0315_Perfect_Resume_08ac9e2b0013-plugins.zip, service=none
+0112.131 (0) Delete file: backup_2017-01-28-0315_Perfect_Resume_08ac9e2b0013-themes.zip, service=none
+0112.133 (0) Delete file: backup_2017-01-28-0315_Perfect_Resume_08ac9e2b0013-uploads.zip, service=none
+0112.135 (0) Delete file: backup_2017-01-28-0315_Perfect_Resume_08ac9e2b0013-others.zip, service=none
+0112.138 (0) This backup set is now empty; will remove from history
+0112.138 (0) Corresponding log file (log.08ac9e2b0013.txt) not found - must have already been deleted
+0112.140 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0112.144 (0) Resume backup (56f7b25bac26, 0): finish run
+0112.146 (0) Decremented the semaphore (fd) by 1
+0112.147 (0) Semaphore (fd) unlocked
+0112.148 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0112.153 (0) No email will/can be sent - the user has not configured an email address.
+0112.153 (0) The backup apparently succeeded and is now complete
